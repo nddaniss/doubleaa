@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meloNanmeloMan's Specials</title>
+    <link href="src/output.css" rel="stylesheet">
+    <link rel="icon" href="img/logolove.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#FFD6E3] font-['Lora'] text-[#8C6239] flex flex-col min-h-screen">
+
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto w-full z-10 relative">
+        <a href="lovepage.html" class="flex items-center gap-2 text-[#8C6239] font-bold hover:text-[#b58b1f] transition group">
+            <i class="fa-solid fa-arrow-left group-hover:-translate-x-1 transition"></i> Back to Home
+        </a>
+        <span class="font-['Dancing_Script'] text-2xl font-bold text-rose-600">Private Gallery 🤫</span>
+    </nav>
+
+    <main class="flex-grow px-6">
+        
+        <div class="max-w-7xl mx-auto mt-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-['Playfair_Display'] font-bold mb-4">Choose The Moment</h1>
+            <p class="text-[#8C6239]/80 mb-8 italic">"Koleksi cerita kita tahun ini."</p>
+
+            <div class="flex justify-center gap-4 mb-12">
+                <button onclick="switchYear('2026')" id="btn-2026" class="px-8 py-2 rounded-full font-bold transition-all duration-300 shadow-lg transform scale-110 bg-[#8C6239] text-[#FFF7F1] border-2 border-[#8C6239]">
+                    2026
+                </button>
+                <button onclick="switchYear('2027')" id="btn-2027" class="px-8 py-2 rounded-full font-bold transition-all duration-300 shadow bg-white text-[#8C6239] border-2 border-[#8C6239] hover:bg-rose-50">
+                    2027
+                </button>
+            </div>
+        </div>
+
+        <div id="year-2026" class="year-content transition-opacity duration-500">
+            
+            <div class="max-w-7xl mx-auto mb-20">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <a href="#valentine-content" class="block group bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 border-2 border-transparent hover:border-rose-300">
+                        <div class="text-4xl mb-3 group-hover:scale-110 transition">💌</div>
+                        <h3 class="font-bold text-lg font-['Playfair_Display']">Valentine 2026</h3>
+                        <p class="text-xs text-gray-500 mt-1">The Love Letter.</p>
+                    </a>
+
+                    <a href="#anniversary" class="block group bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 border-2 border-transparent hover:border-[#b58b1f]">
+                        <div class="text-4xl mb-3 group-hover:scale-110 transition">💍</div>
+                        <h3 class="font-bold text-lg font-['Playfair_Display']">Anniv 2026</h3>
+                        <p class="text-xs text-gray-500 mt-1">Our milestone.</p>
+                    </a>
+
+                    <a href="#birthday-man" class="block group bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 border-2 border-transparent hover:border-pink-300">
+                        <div class="text-4xl mb-3 group-hover:scale-110 transition">👸</div>
+                        <h3 class="font-bold text-lg font-['Playfair_Display']">Man's Bday</h3>
+                        <p class="text-xs text-gray-500 mt-1">Special for Her.</p>
+                    </a>
+
+                    <a href="#birthday-nan" class="block group bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 border-2 border-transparent hover:border-blue-300">
+                        <div class="text-4xl mb-3 group-hover:scale-110 transition">🤴</div>
+                        <h3 class="font-bold text-lg font-['Playfair_Display']">Nan's Bday</h3>
+                        <p class="text-xs text-gray-500 mt-1">Special for Him.</p>
+                    </a>
+
+                </div>
+            </div>
+
+            <section id="valentine-content" class="max-w-4xl mx-auto mb-32 pt-10 scroll-mt-20 border-b-2 border-dashed border-[#8C6239]/20 pb-20">
+                <div class="text-center mb-10">
+                    <span class="bg-rose-100 text-rose-600 px-4 py-1 rounded-full text-sm font-bold tracking-wider uppercase">✨ Special Edition ✨</span>
+                    <h2 class="text-3xl md:text-4xl font-['Dancing_Script'] font-bold mt-4 text-[#8C6239]">The Valentine's Chapter</h2>
+                </div>
+
+                <div class="flex justify-center mb-12 relative">
+                    <div class="w-64 h-64 md:w-80 md:h-80 relative">
+                        <div class="absolute inset-0 bg-[#b58b1f] rounded-full opacity-20 animate-pulse"></div>
+                        <img src="img/usVal.jpeg" alt="Us" class="relative z-10 w-full h-full object-cover rounded-full border-8 border-[#FFF7F1] shadow-xl rotate-3 hover:rotate-0 transition duration-500">
+                        <div class="absolute bottom-0 right-4 z-20 bg-white p-2 rounded-lg shadow text-2xl rotate-12">💖</div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border-l-8 border-rose-400 relative">
+                        <div class="absolute -top-3 -left-3 text-4xl">👸</div> 
+                        <h3 class="font-['Playfair_Display'] font-bold text-xl mb-4 text-right">From Man:</h3>
+                        <div class="text-sm md:text-base leading-relaxed text-gray-600 italic text-right">
+                            <p class="mb-2">"Happy Valentine's Day sayang! ❤️"</p>
+                            <p>Makasih udah selalu sabar ngadepin <i>mood swing</i> aku. Makasih udah mau nurut dan dengerin aku walaupun sering bolong-bolong. Di Valentine's Day yang kedua kita, aku baru kepikiran buat ini, kayak seru aja gak sih ada web gini. Aku pakai bantuan gemini hehehe, gapapa lah, biar bagus, aku sekalian belajar juga kan. Di hari yang manis ini, aku mau ngucapin terimakasih karna udah sabar selama ini, mau berubah tapi tolong konsisten ya! Terus udah ada kemajuan juga loh, aku seneng, dilanjutin yaa sayang. Aku juga minta maaf selama ini sifatku pasti ada aja yang buat kamu kesel, nyebelin gitu, terus aku marah-marah juga jadi pasti ada kata-kataku yang gak sengaja nyakitin hati kamu, aku minta maaf ya sayang, peaceee, love, and gawl. Semoga kedepannya kita bareng terus (harus), jadi pribadi yang lebih baik dari sebelumnya, berjuang dan berkembang bareng, wujudin semua mimpi kita bersama, sukses terus supaya kaya, ORANG KAYA NIH BOSS. I LOVE YOU, Nan ^3^"</p>
+                        </div>
+                        <p class="text-xs text-right mt-4 font-bold text-rose-400">- [Man -Yapper Princess]</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border-r-8 border-blue-400 relative">
+                        <div class="absolute -top-3 -right-3 text-4xl">🤴</div> 
+                        <h3 class="font-['Playfair_Display'] font-bold text-xl mb-4 text-left">From Nan:</h3>
+                        <div class="text-sm md:text-base leading-relaxed text-gray-600 italic text-left">
+                            <p class="mb-2">"Happy Valentine's Day Cantikku! ❤️"</p>
+                            <p>makasi ebeb udah sayang aq, sudah menemani aq dalam ska n dka, smoga qt sehat n bhagia slalu🙏</p>
+                        </div>
+                        <p class="text-xs text-left mt-4 font-bold text-blue-400">- [Nan -Sleeper Prince]</p>
+                    </div>
+                </div>
+
+                <div class="mt-10 mb-8">
+                    <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-0 relative">
+                        <div class="w-48 h-48 md:w-56 md:h-56 p-2 bg-white shadow-lg transform -rotate-6 md:translate-x-8 hover:rotate-0 hover:z-20 hover:scale-110 transition duration-300 z-0 border border-gray-200">
+                            <div class="w-full h-full overflow-hidden">
+                                <img src="img/memoVal1.jpg" alt="Side Memory 1" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+
+                        <div class="w-64 h-64 md:w-80 md:h-96 p-3 bg-white shadow-2xl z-10 transform hover:scale-105 transition duration-300 rounded-sm border border-gray-100">
+                            <div class="w-full h-full overflow-hidden relative">
+                                <img src="img/mainVal.jpg" alt="Main Memory" class="w-full h-full object-cover">
+                                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/50 to-transparent p-2 text-center">
+                                    <p class="text-white font-['Dancing_Script'] text-xl">The Best Moment ❤️</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-48 h-48 md:w-56 md:h-56 p-2 bg-white shadow-lg transform rotate-6 md:-translate-x-8 hover:rotate-0 hover:z-20 hover:scale-110 transition duration-300 z-0 border border-gray-200">
+                            <div class="w-full h-full overflow-hidden">
+                                <img src="img/memoVal2.jpg" alt="Side Memory 2" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+
+                    </div>
+                </div> <br><br><br><br>
+
+                <div class="bg-[#FFF7F1] p-8 rounded-3xl text-center border-2 border-dashed border-[#8C6239]/30 relative overflow-hidden">
+                    <i class="fa-solid fa-quote-left absolute top-4 left-4 text-4xl text-[#FFD6E3]"></i>
+                    <h3 class="font-bold text-2xl mb-6 font-['Playfair_Display']">Our Dreams 🎋</h3>
+                    <ul class="text-left max-w-lg mx-auto space-y-3 list-disc pl-5 text-[#8C6239]">
+                        <li>Semoga kita makin langgeng sampai kakek nenek.</li>
+                        <li>Semoga rezeki kita lancar biar bisa nikah tanpa hutang, jadi kaya, keluarga harmonis (svaha!).</li>
+                        <li>Kurangin berantem, berkembang bersama, banyakin komunikasi dan have fun.</li>
+                    </ul>
+                    <i class="fa-solid fa-quote-right absolute bottom-4 right-4 text-4xl text-[#FFD6E3]"></i>
+                </div>
+            </section>
+
+            <section id="anniversary" class="max-w-4xl mx-auto mb-32 pt-10 scroll-mt-20 border-b-2 border-dashed border-[#8C6239]/20 pb-20 opacity-80 hover:opacity-100 transition">
+                <div class="text-center mb-8">
+                    <span class="bg-[#FFF7F1] text-[#8C6239] border border-[#8C6239] px-4 py-1 rounded-full text-sm font-bold tracking-wider uppercase">Coming Soon in August 2026</span>
+                    <h2 class="text-4xl font-['Dancing_Script'] font-bold mt-4 text-[#8C6239]">Happy Anniversary!</h2>
+                </div>
+                <div class="bg-[#FFF7F1] border-2 border-dashed border-[#8C6239] rounded-3xl p-10 text-center flex flex-col items-center justify-center min-h-[300px]">
+                    <div class="text-6xl mb-4 text-[#8C6239]/30">💍</div>
+                    <h3 class="text-xl font-bold mb-2">Halaman ini masih kosong...</h3>
+                    <p class="text-sm text-gray-500 max-w-md mx-auto">Nanti kalau udah tanggal jadian, aku bakal update bagian ini.</p>
+                </div>
+            </section>
+
+            <section id="birthday-man" class="max-w-4xl mx-auto mb-32 pt-10 scroll-mt-20 border-b-2 border-dashed border-[#8C6239]/20 pb-20 opacity-80 hover:opacity-100 transition">
+                <div class="text-center mb-8">
+                    <span class="bg-pink-50 text-pink-600 border border-pink-200 px-4 py-1 rounded-full text-sm font-bold tracking-wider uppercase">Coming Soon in April 2026</span>
+                    <h2 class="text-4xl font-['Dancing_Script'] font-bold mt-4 text-pink-800">Happy Birthday, Man! 🎂</h2>
+                </div>
+                <div class="bg-pink-50 border-2 border-dashed border-pink-300 rounded-3xl p-10 text-center flex flex-col items-center justify-center min-h-[300px]">
+                    <div class="text-6xl mb-4 text-pink-200">👸</div>
+                    <h3 class="text-xl font-bold mb-2 text-pink-900">Spesial Buat Kamu</h3>
+                    <p class="text-sm text-pink-600 max-w-md mx-auto">Tunggu tanggal mainnya ya! Bakal ada kado virtual di sini.</p>
+                </div>
+            </section>
+            <section id="birthday-nan" class="max-w-4xl mx-auto mb-32 pt-10 scroll-mt-20 border-b-2 border-dashed border-[#8C6239]/20 pb-20 opacity-80 hover:opacity-100 transition">
+                <div class="text-center mb-8">
+                    <span class="bg-blue-50 text-blue-600 border border-blue-200 px-4 py-1 rounded-full text-sm font-bold tracking-wider uppercase">Coming Soon in October 2026</span>
+                    <h2 class="text-4xl font-['Dancing_Script'] font-bold mt-4 text-blue-800">Happy Birthday, Nan! 🎂</h2>
+                </div>
+                <div class="bg-blue-50 border-2 border-dashed border-blue-300 rounded-3xl p-10 text-center flex flex-col items-center justify-center min-h-[300px]">
+                    <div class="text-6xl mb-4 text-blue-200">🤴</div>
+                    <h3 class="text-xl font-bold mb-2 text-blue-900">Spesial Buat Kamu</h3>
+                    <p class="text-sm text-blue-600 max-w-md mx-auto">Tunggu tanggal mainnya ya! Bakal ada kado virtual di sini.</p>
+                </div>
+            </section>
+
+            <section class="max-w-6xl mx-auto mb-20 pt-10">
+                <div class="text-center mb-12">
+                    <div class="inline-block bg-[#8C6239] text-[#FFF7F1] px-3 py-1 rounded text-xs font-bold uppercase tracking-widest mb-2 transform -rotate-2">
+                        Reality Check
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold font-['Playfair_Display']">The "Fun" Files</h2>
+                    <p class="text-sm mt-2 italic">Fakta lapangan hubungan Man & Nan (No Debat).</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                    <div class="bg-white p-8 rounded-2xl shadow-md">
+                        <h3 class="font-bold text-xl mb-6 flex items-center gap-2 border-b pb-2"><i class="fa-solid fa-chart-pie text-rose-500"></i> Statistik Kita</h3>
+                        <div class="space-y-6">
+                            
+                            <div>
+                                <div class="flex justify-between text-xs font-bold mb-1">
+                                    <span>Tingkat Kesabaran</span>
+                                    <span>Man (Tipis) vs Nan (Tebal)</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2 flex overflow-hidden">
+                                    <div class="bg-purple-400 h-2" style="width: 5%"></div> 
+                                    <div class="bg-green-400 h-2" style="width: 95%"></div>
+                                </div>
+                                <p class="text-[10px] text-gray-500 mt-1 italic">*Man: Senggol bacok (apalagi pas haid). Nan: Mencoba nurut walau kadang bolong.</p>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between text-xs font-bold mb-1">
+                                    <span>Frekuensi Ngomong</span>
+                                    <span>Man (Radio FM) vs Nan (Mode Hening)</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2 flex overflow-hidden">
+                                    <div class="bg-purple-400 h-2" style="width: 90%"></div>
+                                    <div class="bg-green-400 h-2" style="width: 10%"></div>
+                                </div>
+                                <p class="text-[10px] text-gray-500 mt-1 italic">*Man: Cerita hal random 24/7. Nan: "Hidupku monoton yang..."</p>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between text-xs font-bold mb-1">
+                                    <span>Sponsor Jajan & Makan</span>
+                                    <span>Nan (85%) - Man (15%)</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2 flex overflow-hidden">
+                                    <div class="bg-green-400 h-2" style="width: 85%"></div>
+                                    <div class="bg-purple-400 h-2" style="width: 15%"></div>
+                                </div>
+                                <p class="text-[10px] text-gray-500 mt-1 italic">*Nan bayarin mayoritas, Man backup sisanya. Hasilnya: Kita BERDUA makin gembul bareng.</p>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between text-xs font-bold mb-1">
+                                    <span>Kemampuan Tidur</span>
+                                    <span>Man (Insomnia) vs Nan (Pelur)</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2 flex overflow-hidden">
+                                    <div class="bg-purple-400 h-2" style="width: 20%"></div> 
+                                    <div class="bg-green-400 h-2" style="width: 80%"></div> 
+                                </div>
+                                <p class="text-[10px] text-gray-500 mt-1 italic">*Man: Mata merem tapi otak 'running' (Overthinking). Nan: Nempel bantal langsung 'Force Shutdown'.</p>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between text-xs font-bold mb-1">
+                                    <span>Skill Teknologi & Cuan</span>
+                                    <span>Man (Error 404) vs Nan (Stonks 📈)</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2 flex overflow-hidden">
+                                    <div class="bg-purple-400 h-2" style="width: 10%"></div> <div class="bg-green-400 h-2" style="width: 90%"></div> </div>
+                                <p class="text-[10px] text-gray-500 mt-1 italic">*Ironi terbesar: Man kuliah TI tapi gaptek, Nan yang jago teknologi & main saham.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-md">
+                        <h3 class="font-bold text-xl mb-6 flex items-center gap-2 border-b pb-2"><i class="fa-solid fa-trophy text-[#b58b1f]"></i> Hall of Fame</h3>
+                        
+                        <div class="grid grid-cols-2 gap-4 text-center">
+                            
+                            <div class="p-3 bg-rose-50 rounded-lg border border-rose-100 hover:scale-105 transition group">
+                                <div class="text-3xl mb-1">🎁</div>
+                                <div class="text-[10px] font-bold bg-rose-200 text-rose-700 rounded px-1 inline-block mb-1">MAN</div>
+                                <h4 class="font-bold text-sm text-gray-800">The Idea Master</h4>
+                                <p class="text-[10px] text-gray-500">Cintanya totalitas, idenya banyak, kado selalu kreatif & niat banget.</p>
+                            </div>
+
+                            <div class="p-3 bg-blue-50 rounded-lg border border-blue-100 hover:scale-105 transition group">
+                                <div class="text-3xl mb-1">🚽</div>
+                                <div class="text-[10px] font-bold bg-blue-200 text-blue-700 rounded px-1 inline-block mb-1">NAN</div>
+                                <h4 class="font-bold text-sm text-gray-800">King of WC</h4>
+                                <p class="text-[10px] text-gray-500">Hobi: Main game, tidur, dan sering banget "setoran" ke WC.</p>
+                            </div>
+
+                            <div class="p-3 bg-rose-50 rounded-lg border border-rose-100 hover:scale-105 transition group">
+                                <div class="text-3xl mb-1">😭</div>
+                                <div class="text-[10px] font-bold bg-rose-200 text-rose-700 rounded px-1 inline-block mb-1">MAN</div>
+                                <h4 class="font-bold text-sm text-gray-800">Miss Sensitive</h4>
+                                <p class="text-[10px] text-gray-500">Dijailin dikit ngambek & nangis, tapi sebenernya sayang banget.</p>
+                            </div>
+
+                            <div class="p-3 bg-blue-50 rounded-lg border border-blue-100 hover:scale-105 transition group">
+                                <div class="text-3xl mb-1">💳</div>
+                                <div class="text-[10px] font-bold bg-blue-200 text-blue-700 rounded px-1 inline-block mb-1">NAN</div>
+                                <h4 class="font-bold text-sm text-gray-800">The Royal Funder</h4>
+                                <p class="text-[10px] text-gray-500">Cover 80-90% jajan, tapi tetep gantian kok. Loyalitas tanpa batas.</p>
+                            </div>
+
+                            <div class="p-3 bg-rose-50 rounded-lg border border-rose-100 hover:scale-105 transition group">
+                                <div class="text-3xl mb-1">🦉</div>
+                                <div class="text-[10px] font-bold bg-rose-200 text-rose-700 rounded px-1 inline-block mb-1">MAN</div>
+                                <h4 class="font-bold text-sm text-gray-800">Tim Begadang</h4>
+                                <p class="text-[10px] text-gray-500">Susah tidur, overthinking, temennya hantu malam.</p>
+                            </div>
+
+                            <div class="p-3 bg-blue-50 rounded-lg border border-blue-100 hover:scale-105 transition group">
+                                <div class="text-3xl mb-1">🤫</div>
+                                <div class="text-[10px] font-bold bg-blue-200 text-blue-700 rounded px-1 inline-block mb-1">NAN</div>
+                                <h4 class="font-bold text-sm text-gray-800">Cool Lover</h4>
+                                <p class="text-[10px] text-gray-500">Cintanya gak ugal-ugalan dan cuek, tapi serius & dalem banget.</p>
+                            </div>
+
+                             <div class="p-3 bg-rose-50 rounded-lg border border-rose-100 hover:scale-105 transition group">
+                                <div class="text-3xl mb-1">💻</div>
+                                <div class="text-[10px] font-bold bg-rose-200 text-rose-700 rounded px-1 inline-block mb-1">MAN</div>
+                                <h4 class="font-bold text-sm text-gray-800">Anak TI Jalur Doa</h4>
+                                <p class="text-[10px] text-gray-500">Kuliah IT tapi Gaptek. Koding pusing, yang penting lulus!</p>
+                            </div>
+
+                            <div class="p-3 bg-blue-50 rounded-lg border border-blue-100 hover:scale-105 transition group">
+                                <div class="text-3xl mb-1">📈</div>
+                                <div class="text-[10px] font-bold bg-blue-200 text-blue-700 rounded px-1 inline-block mb-1">NAN</div>
+                                <h4 class="font-bold text-sm text-gray-800">The Investor</h4>
+                                <p class="text-[10px] text-gray-500">Melek teknologi & main saham. Diem-diem aset numpuk.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="max-w-4xl mx-auto mb-24 px-4 mt-20">
+                <div class="text-center mb-8">
+                    <h2 class="text-2xl md:text-3xl font-bold font-['Playfair_Display']">System Logs</h2>
+                    <p class="text-sm mt-1 italic text-gray-500">Diagnostic Hubungan: TI vs Elektro...</p>
+                </div>
+
+                <div class="bg-[#1e1e1e] rounded-xl shadow-2xl border border-gray-600 overflow-hidden font-mono text-xs md:text-sm leading-relaxed">
+                    
+                    <div class="bg-[#2d2d2d] px-4 py-2 flex items-center justify-between border-b border-gray-600">
+                        <div class="flex gap-2">
+                            <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                        </div>
+                        <div class="text-gray-400 text-[10px] md:text-xs">root@server:~/love_project/final_check</div>
+                        <div class="w-10"></div> 
+                    </div>
+
+                    <div class="p-6 text-green-400 space-y-2 min-h-[420px]" id="terminal-content">
+                        
+                        <div class="typing-effect">
+                            <span class="text-blue-400 font-bold">root@user:~$</span> sudo run relationship_diagnostic.sh
+                        </div>
+                        
+                        <div class="text-gray-300 ml-4 opacity-0" style="animation: fadeIn 0.5s 1s forwards;">
+                            > Initializing Core System... <span class="text-green-500">[OK]</span>
+                        </div>
+
+                        <div class="text-gray-300 ml-4 mt-4 opacity-0" style="animation: fadeIn 0.5s 2s forwards;">
+                            > Scanning User 1: <span class="text-rose-400 font-bold">MAN (IT Student)</span>...
+                        </div>
+                        <div class="text-red-400 ml-8 opacity-0" style="animation: fadeIn 0.5s 3s forwards;">
+                            [ERROR 404] Coding Skill not found. "Gaptek" attribute is active.
+                        </div>
+                        <div class="text-red-400 ml-8 opacity-0" style="animation: fadeIn 0.5s 4s forwards;">
+                            [ALERT] Logic.dll missing. Overthinking module running at 101%.
+                        </div>
+                        <div class="text-yellow-400 ml-8 opacity-0" style="animation: fadeIn 0.5s 5s forwards;">
+                            [INFO] Status: Suka nangis kalau dijailin.
+                        </div>
+
+                        <div class="text-gray-300 ml-4 mt-4 opacity-0" style="animation: fadeIn 0.5s 6.5s forwards;">
+                            > Scanning User 2: <span class="text-blue-400 font-bold">NAN (Electrical Eng.)</span>...
+                        </div>
+                        <div class="text-green-500 ml-8 opacity-0" style="animation: fadeIn 0.5s 7.5s forwards;">
+                            [SUCCESS] Engineering Brain detected. Tech Savvy Level: EXPERT.
+                        </div>
+                        <div class="text-green-500 ml-8 opacity-0" style="animation: fadeIn 0.5s 8.5s forwards;">
+                            [INFO] Stock Market Portfolio: BULLISH 📈 (Cuan Hunter).
+                        </div>
+                        <div class="text-blue-300 ml-8 opacity-0" style="animation: fadeIn 0.5s 9.5s forwards;">
+                            [STATUS] Low Battery Mode (Sleep/WC Frequency: High).
+                        </div>
+
+                        <div class="text-gray-300 ml-4 mt-4 opacity-0" style="animation: fadeIn 0.5s 11s forwards;">
+                            > Running Compatibility Check (Hardware vs Software)...
+                        </div>
+                        <div class="ml-4 text-white opacity-0" style="animation: fadeIn 0.5s 12s forwards;">
+                            Loading: [████████████████████] 100%
+                        </div>
+
+                        <div class="border-l-4 border-green-500 pl-4 ml-4 mt-6 opacity-0" style="animation: fadeIn 1s 13s forwards;">
+                            <p class="text-white font-bold text-lg">RESULT: PERFECT SYNC!</p>
+                            <p class="text-gray-400 text-xs italic mt-1">
+                                "Anak Elektro yang ngerti teknologi & Anak TI yang gaptek."
+                            </p>
+                            <p class="text-green-400 mt-2 font-bold">
+                                System Status: Saling Melengkapi (Arus & Data).
+                            </p>
+                        </div>
+
+                        <div class="mt-8 animate-pulse text-blue-400">
+                            root@user:~$ <span class="w-2 h-4 bg-gray-500 inline-block align-middle"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <style>
+                @keyframes fadeIn {
+                    from { opacity: 0; transform: translateY(5px); }
+                    to { opacity: 1; transform: translateY(0); }
+                }
+            </style>
+        </div>
+
+        <div id="year-2027" class="year-content hidden transition-opacity duration-500">
+            <div class="max-w-4xl mx-auto text-center py-32">
+                <div class="text-8xl mb-6 opacity-50">🔒</div>
+                <h2 class="text-4xl font-bold font-['Playfair_Display'] mb-4 text-gray-400">Time Capsule Locked</h2>
+                <p class="text-gray-500 max-w-lg mx-auto mb-8">
+                    Halaman ini dikunci sampai tahun 2027. <br>
+                    Nikmati dulu momen di tahun 2026 ya!
+                </p>
+                <div class="bg-gray-100 px-6 py-2 rounded-xl inline-block">
+                    <p class="font-mono text-xs text-gray-500">Status: <span class="text-red-400 font-bold">LOCKED</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#FF9DB5] py-10 border-t-4 border-[#FFF7F1] mt-auto">
+        <div class="max-w-4xl mx-auto px-6 text-center flex flex-col items-center justify-center">
+            
+            <h2 class="font-['Playfair_Display'] font-bold text-2xl text-[#8C6239] mb-2 tracking-wide">
+                meloNanmeloMan
+            </h2>
+            <p class="text-[#8C6239] mb-6 font-['Lora'] text-sm italic">
+                "Made with ❤️, lots of sweets, and pure happiness."
+            </p>
+    
+            <p class="text-xs font-bold uppercase tracking-widest text-[#FFF7F1] mb-2">
+                See Our Journey:
+            </p>
+            <a href="https://www.instagram.com/melonanmeloman/#" target="_blank" class="group relative inline-flex items-center gap-3 bg-[#FFF7F1] hover:bg-white px-6 py-3 rounded-full transition-all duration-300 shadow-sm hover:shadow-xl hover:-translate-y-1 mb-8">
+                <div class="bg-gradient-to-tr from-yellow-500 via-red-500 to-purple-500 text-white w-8 h-8 flex items-center justify-center rounded-full group-hover:rotate-12 transition duration-300">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <span class="text-[#8C6239] font-bold font-['Playfair_Display'] tracking-wide">
+                    Visit Our Gallery 👩‍❤️‍👨
+                </span>
+            </a>
+    
+            <div class="w-16 h-1 bg-[#8C6239]/20 rounded-full mb-6"></div>
+    
+            <div class="text-[#8C6239] space-y-2">
+                <p class="text-xs sm:text-sm font-bold tracking-wider">
+                    &copy; 2026. NO REFUNDS OR EXCHANGES ALLOWED.
+                </p>
+                <p class="text-[10px] sm:text-xs opacity-80 max-w-lg mx-auto leading-relaxed">
+                    By scrolling this far, you agree that we are the cutest couple ever. Violation of this agreement will result in a fine of buying us Mixue, Bakso, Mie Ayam, Kopi, Dessert (for Man from Nan). Terms and conditions applied (forever & always).
+                </p>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script>
+        function switchYear(year) {
+            // Hide all content
+            document.querySelectorAll('.year-content').forEach(el => el.classList.add('hidden'));
+            
+            // Show selected year
+            document.getElementById('year-' + year).classList.remove('hidden');
+
+            // Reset buttons
+            document.querySelectorAll('button[id^="btn-"]').forEach(btn => {
+                btn.classList.remove('bg-[#8C6239]', 'text-[#FFF7F1]', 'scale-110', 'shadow-lg');
+                btn.classList.add('bg-white', 'text-[#8C6239]', 'hover:bg-rose-50');
+            });
+
+            // Activate button
+            const activeBtn = document.getElementById('btn-' + year);
+            activeBtn.classList.remove('bg-white', 'text-[#8C6239]', 'hover:bg-rose-50');
+            activeBtn.classList.add('bg-[#8C6239]', 'text-[#FFF7F1]', 'scale-110', 'shadow-lg');
+        }
+    </script>
+    <div class="fixed bottom-6 left-6 z-50">
+        <audio id="bg-music" loop>
+            <source src="music/lagukita.mp3" type="audio/mp4">
+        </audio>
+
+        <button id="music-btn" onclick="toggleMusic()" 
+            class="w-12 h-12 rounded-full bg-[#FFF7F1] text-[#8C6239] border-2 border-[#8C6239] shadow-lg flex items-center justify-center hover:scale-110 transition duration-300 focus:outline-none">
+            <i id="music-icon" class="fa-solid fa-music text-lg"></i>
+        </button>
+    </div>
+
+    <script>
+        const music = document.getElementById("bg-music");
+        const btn = document.getElementById("music-btn");
+        const icon = document.getElementById("music-icon");
+
+        function toggleMusic() {
+            if (music.paused) {
+                music.play();
+                icon.classList.remove("fa-music");
+                icon.classList.add("fa-compact-disc", "fa-spin"); 
+                btn.classList.add("ring-4", "ring-[#FF9DB5]/50");
+            } else {
+                music.pause();
+                icon.classList.remove("fa-compact-disc", "fa-spin");
+                icon.classList.add("fa-music");
+                btn.classList.remove("ring-4", "ring-[#FF9DB5]/50");
+            }
+        }
+        music.volume = 0.5; 
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+h2, ul, h3, summary {
+    font-family: "Playfair Display", "serif";
+}
+p, li, button, a {
+    font-family: "Lora", "serif";
+}
